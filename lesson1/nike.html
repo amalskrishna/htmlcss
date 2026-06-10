@@ -1,6 +1,10 @@
 <style>
     .link {
         color: rgb(0, 113, 133);
+        transition: color 0.15s;
+    }
+    .link:hover {
+        color: rgb(167, 64, 0);
     }
     .nike {
         font-size: 25px;
@@ -18,7 +22,15 @@
         width: 104px;
         border-radius: 13px;
         margin-right: 8px;
-        cursor: pointer;}
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .cart:hover {
+        background-color: rgb(214, 146, 0);
+    }
+    .cart:active {
+        opacity: 0.5;
+    }
     .buy {
         background-color: rgb(255, 140, 0);
         border: none;
@@ -26,6 +38,13 @@
         width: 104px;
         border-radius: 13px;
         cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .buy:hover {
+        background-color: rgb(215, 86, 0);
+    }
+    .buy:active {
+        opacity: 0.5;
     }
 </style>
 
